@@ -13,7 +13,6 @@ public class VariablesAndFunctions : MonoBehaviour
 	{
 		theInt = MultiplyByTwo (theInt);
 		Debug.Log (theInt);
-
 	}
 
 
