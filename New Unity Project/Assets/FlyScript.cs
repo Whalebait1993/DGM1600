@@ -1,10 +1,10 @@
 ﻿
 
-/*
+
 
 using UnityEngine;
 using System.Collections;
-
+/*
 public class FlyScript : MonoBehaviour 
 {
 	private float heightTest = 3f;
@@ -33,16 +33,32 @@ public class FlyScript : MonoBehaviour
 		Vector3 newPosition = new Vector3(0,7,0);
 		transform.position = newPosition;//  Transform.position is asking for all 3 coordinate.  Transform.position.y would be asking for only one.
 	}
-}
+}*/
 
 public class Car : MonoBehaviour 
 {
 	//a bunch of variables and functions
-	int year = 1999;
+	//public int year = 1999;
 
-	public void Go()
+
+
+
+	public void Go(int year)
 	{
+		if (year <= 1993) 
+		{
+			Debug.Log ("Oh Snap!  I was not born yet!");
+		} 
 
+		else if (year == 1999) 
+		{
+			Debug.Log ("I am Six years old!");
+
+		} 
+		else 
+		{
+			Debug.Log ("Im Forgetful.");
+		}
 	}
 }
 
@@ -55,16 +71,6 @@ public class Car : MonoBehaviour
 
 
 
- * 
- * 
- * Line
- * 
- * 
- * 
- * COmmmmememehtaldosufhalsdioufh
- * 
- * 
- * */
 
 
 
@@ -126,18 +132,21 @@ public class Car : MonoBehaviour
 
 
 
-
-
-
-using UnityEngine;
-using System.Collections;
+//using UnityEngine;
+//using System.Collections;
 
 public class FlyScript : MonoBehaviour 
 {
 	private float heightTest = 3f;
+
+	public int year = 0;
+
+	Car myCar = new Car();
 	void Start ()
 	{
 		Debug.Log (transform.position.y);
+
+
 
 		if(transform.position.y <= heightTest)
 		{
@@ -158,6 +167,23 @@ public class FlyScript : MonoBehaviour
 		Vector3 newPosition = new Vector3(0,7,0);
 		transform.position = newPosition;
 	}
+
+	void Update()
+	{
+		myCar.Go (year);
+
+
+
+
+
+
+	}
+
+
+
+
+
+
 }
 
 
