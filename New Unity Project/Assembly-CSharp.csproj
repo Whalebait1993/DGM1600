@@ -46,7 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ClassesAndConstructs.cs" />
      <Compile Include="Assets\FlyScript.cs" />
+     <Compile Include="Assets\Loops.cs" />
      <Compile Include="Assets\VariablesAndFunctions.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>

@@ -196,17 +196,3 @@ public class FlyScript : MonoBehaviour
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
