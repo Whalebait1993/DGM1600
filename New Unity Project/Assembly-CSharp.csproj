@@ -46,7 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ArraysProject.cs" />
      <Compile Include="Assets\ClassesAndConstructs.cs" />
+     <Compile Include="Assets\Enums.cs" />
      <Compile Include="Assets\FlyScript.cs" />
      <Compile Include="Assets\Loops.cs" />
      <Compile Include="Assets\VariablesAndFunctions.cs" />
