@@ -3,6 +3,9 @@ using System.Collections;
 
 public class DuckSpawner : MonoBehaviour {
 
+
+
+	//creating a variable to work with for the duck.
 	public GameObject duck;
 
 
@@ -11,7 +14,7 @@ public class DuckSpawner : MonoBehaviour {
 	{
 		Debug.Log ("Spawn Duck.");
 
-		Instantiate (duck, transform.position, Quaternion.identity);
+		Instantiate(duck, transform.position, Quaternion.identity);
 
 
 	}

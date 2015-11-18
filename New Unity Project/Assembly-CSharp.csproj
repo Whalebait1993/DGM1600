@@ -46,7 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Duck Hunt\DuckDirectionChanger.cs" />
      <Compile Include="Assets\Duck Hunt\DuckHealth.cs" />
+     <Compile Include="Assets\Duck Hunt\DuckMovement.cs" />
      <Compile Include="Assets\Duck Hunt\DuckSpawner.cs" />
      <Compile Include="Assets\Learning Scripts\ArraysProject.cs" />
      <Compile Include="Assets\Learning Scripts\ClassesAndConstructs.cs" />
