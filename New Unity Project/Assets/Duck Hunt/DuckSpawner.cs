@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DuckSpawner : MonoBehaviour {
+public class DuckSpawner : MonoBehaviour 
+
+{
 
 
 

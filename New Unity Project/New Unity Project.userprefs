@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Duck Hunt/DuckMovement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Duck Hunt/DuckSpawner.cs">
     <Files>
+      <File FileName="Assets/Duck Hunt/DuckSpawner.cs" Line="17" Column="10" />
       <File FileName="Assets/Duck Hunt/DuckHealth.cs" Line="1" Column="1" />
-      <File FileName="Assets/Duck Hunt/DuckSpawner.cs" Line="16" Column="3" />
       <File FileName="Assets/Duck Hunt/DuckMovement.cs" Line="36" Column="58" />
-      <File FileName="Assets/Duck Hunt/DuckDirectionChanger.cs" Line="27" Column="46" />
+      <File FileName="Assets/Duck Hunt/DuckDirectionChanger.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
