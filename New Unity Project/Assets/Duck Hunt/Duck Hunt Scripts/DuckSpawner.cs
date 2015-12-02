@@ -15,7 +15,8 @@ public class DuckSpawner : MonoBehaviour
 	public void SpawnDuck()
 	{
 		Debug.Log ("Spawn Duck.");
-
+		//Instantiate is a special function in unity for creating objects.
+		// Breakdown of Instantiate=Create( Object, Position, rotation) Quaternion = transform.rotation
 		Instantiate(duck, transform.position, Quaternion.identity);
 
 

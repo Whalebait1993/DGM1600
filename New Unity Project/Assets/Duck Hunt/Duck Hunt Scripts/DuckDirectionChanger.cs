@@ -12,7 +12,7 @@ public class DuckDirectionChanger : MonoBehaviour {
 
 	void OnCollisionEnter(Collision hit)
 	{
-		Debug.Log ("HIT");
+		//Debug.Log ("HIT");
 		//if the hit object is has the tag of duck
 		if (hit.transform.tag == "Duck") 
 		{

@@ -46,10 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Duck Hunt\DuckDirectionChanger.cs" />
-     <Compile Include="Assets\Duck Hunt\DuckHealth.cs" />
-     <Compile Include="Assets\Duck Hunt\DuckMovement.cs" />
-     <Compile Include="Assets\Duck Hunt\DuckSpawner.cs" />
+     <Compile Include="Assets\Duck Hunt\Duck Hunt Scripts\DuckDirectionChanger.cs" />
+     <Compile Include="Assets\Duck Hunt\Duck Hunt Scripts\DuckHealth.cs" />
+     <Compile Include="Assets\Duck Hunt\Duck Hunt Scripts\DuckMovement.cs" />
+     <Compile Include="Assets\Duck Hunt\Duck Hunt Scripts\DuckSpawner.cs" />
      <Compile Include="Assets\Learning Scripts\ArraysProject.cs" />
      <Compile Include="Assets\Learning Scripts\ClassesAndConstructs.cs" />
      <Compile Include="Assets\Learning Scripts\Enums.cs" />
