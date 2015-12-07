@@ -19,12 +19,20 @@ public class Bullets : MonoBehaviour {
 	public void DisableBullet(int index)
 	{
 
-		Bullets [index].SetActive (false);
+		bullets[index].SetActive (false);
 
 	}
 
 
+	void ResetBullets()
+	{
 
+		foreach(GameObject bul in bullets)
+		
+
+
+
+	}
 
 
 
