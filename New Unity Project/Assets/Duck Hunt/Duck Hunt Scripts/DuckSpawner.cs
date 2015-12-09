@@ -4,6 +4,12 @@ using System.Collections;
 public class DuckSpawner : MonoBehaviour 
 
 {
+	void Start()
+	{
+		GameManager.OnSpawnDucks += SpawnDuck;
+
+	}
+
 
 
 

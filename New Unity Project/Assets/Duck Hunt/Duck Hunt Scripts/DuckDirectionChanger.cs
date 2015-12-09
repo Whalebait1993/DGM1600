@@ -8,6 +8,14 @@ public class DuckDirectionChanger : MonoBehaviour {
 
 	public Changer changer;
 
+	void Start()
+	{
+		GameManager.OnDuckShot += TurnOn;
+		GameManager.OnDuckMiss += TurnOff;
+
+
+
+	}
 
 
 	void OnCollisionEnter(Collision hit)
@@ -35,18 +43,20 @@ public class DuckDirectionChanger : MonoBehaviour {
 
 		}
 	}
+	//these effect the borders
+	public void TurnOff()
+	{
+		gameObject.SetActive (false);
 
 
-
-
-
-	// Use this for initialization
-	/*void Start () {
-	
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}*/
+	public void TurnOn()
+	{
+		gameObject.SetActive (true);
+		
+		
+	}
+
+
+
 }

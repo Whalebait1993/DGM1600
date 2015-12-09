@@ -9,7 +9,7 @@ public class Bullets : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		GameManager2.OnSpawnDucks = ResetBullets;
+		//GameManager2.OnSpawnDucks = ResetBullets;
 
 
 
@@ -27,8 +27,8 @@ public class Bullets : MonoBehaviour {
 	void ResetBullets()
 	{
 
-		foreach(GameObject bul in bullets)
-		
+		foreach(GameObject bul in bullets);
+
 
 
 
